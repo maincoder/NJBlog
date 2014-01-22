@@ -1,5 +1,4 @@
 
-
 #*NJBlog*     [![Build Status](https://travis-ci.org/mz121star/NJBlog.png?branch=master)](https://travis-ci.org/mz121star/NJBlog)
   [项目进度查询](https://trello.com/board/node-js-blog/50dda31c39e3d3341b001433 "项目进度")
 
@@ -22,7 +21,7 @@
 
 **1，clone code**
 
- >  `git clone https://github.com/mz121star/NJBlog.git`
+ >  `git clone git@github.com:maincoder/NJBlog.git`
  
 
 **2，install**
