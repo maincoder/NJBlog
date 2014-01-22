@@ -4,16 +4,13 @@
 
 var express = require('express')
     , routes = require('./routes/routes')
-    , user = require('./routes')
     , http = require('http')
-    , path = require('path')
-    , fs = require('fs')
-    , colors = require('colors');
+    , path = require('path');
 
 var app = express();
 
 app.configure(function () {
-    app.set('port', process.env.PORT || 3000);
+    app.set('port', process.env.PORT || 3001);
     app.set('views', __dirname + '/views');
     app.set('view engine', 'html');
     app.use(express.favicon());
